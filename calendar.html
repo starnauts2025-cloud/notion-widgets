@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f1f1f; --sub: #787774; --line: #e3e2e0;
+    --today-bg: #2e7cd6; --today-fg: #ffffff; --sun: #d44c47; --past: #b9b7b3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #191919; --fg: #ececec; --sub: #9b9b9b; --line: #333;
+            --today-bg: #3b86d8; --today-fg: #ffffff; --sun: #e06a66; --past: #6f6e6b; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    display: flex; align-items: center; justify-content: center; padding: 10px;
+  }
+  .grid {
+    display: grid; grid-template-columns: repeat(7, 1fr);
+    width: 100%; max-width: 860px;
+    border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  }
+  .cell {
+    border-right: 1px solid var(--line);
+    padding: 10px 4px 12px; text-align: center; background: var(--bg);
+  }
+  .cell:last-child { border-right: none; }
+  .dow { font-size: 12px; color: var(--sub); margin-bottom: 6px; }
+  .num { font-size: 24px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.2; }
+  .cell.past .dow, .cell.past .num { color: var(--past); }
+  .cell.sun .dow, .cell.sun .num { color: var(--sun); }
+  .cell.today { background: var(--today-bg); }
+  .cell.today .dow, .cell.today .num { color: var(--today-fg); }
+  .cell.today .dow { opacity: 0.85; }
+</style>
+</head>
+<body>
+  <div class="grid" id="grid"></div>
+<script>
+  var q = new URLSearchParams(location.search);
+  var DOW = ["월", "화", "수", "목", "금", "토", "일"];
+  function parse(s) {
+    var p = (s || "").split("-");
+    return p.length === 3 ? new Date(+p[0], +p[1] - 1, +p[2]) : null;
+  }
+  var start = parse(q.get("s")) || new Date();
+  var today = parse(q.get("t"));
+  if (!today) { today = new Date(); }
+  function sameDay(a, b) {
+    return a.getFullYear() === b.getFullYear() && a.getMonth() === b.getMonth() && a.getDate() === b.getDate();
+  }
+  var html = "";
+  for (var i = 0; i < 7; i++) {
+    var d = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+    var cls = "cell";
+    if (i === 6) { cls += " sun"; }
+    if (sameDay(d, today)) { cls += " today"; }
+    else if (d < today) { cls += " past"; }
+    html += '<div class="' + cls + '"><div class="dow">' + DOW[i] + '</div><div class="num">' + d.getDate() + '</div></div>';
+  }
+  document.getElementById("grid").innerHTML = html;
+</script>
+</body>
+</html>
