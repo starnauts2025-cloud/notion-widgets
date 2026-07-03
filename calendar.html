@@ -48,7 +48,12 @@
     var p = (s || "").split("-");
     return p.length === 3 ? new Date(+p[0], +p[1] - 1, +p[2]) : null;
   }
-  var start = parse(q.get("s")) || new Date();
+  var start = parse(q.get("s"));
+  if (!start) {
+    var now = new Date();
+    var mon = (now.getDay() + 6) % 7;
+    start = new Date(now.getFullYear(), now.getMonth(), now.getDate() - mon);
+  }
   var today = parse(q.get("t"));
   if (!today) { today = new Date(); }
   function sameDay(a, b) {
