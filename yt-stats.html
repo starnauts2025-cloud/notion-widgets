@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YT Stats</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f1f1f; --sub: #787774; --accent: #2e7cd6;
+    --card: #f7f6f4; --line: #e8e6e3; --up: #2f9e63;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #191919; --fg: #ececec; --sub: #9b9b9b; --accent: #5a9fe2;
+      --card: #232323; --line: #333; --up: #58c98c; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    padding: 10px;
+  }
+  .head { display:flex; justify-content:space-between; align-items:baseline; margin: 2px 4px 10px; }
+  .head .t { font-size: 12px; letter-spacing: 2px; color: var(--sub); }
+  .head .u { font-size: 10px; color: var(--sub); }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; }
+  .ch {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 10px 12px;
+  }
+  .ch .nm { font-size: 13px; font-weight: 700; margin-bottom: 6px; display:flex; align-items:center; gap:6px; }
+  .ch .nm .dot { width:8px; height:8px; border-radius:50%; background: var(--accent); }
+  .row { display:flex; gap: 10px; }
+  .st b { display:block; font-size: 18px; font-weight: 700; font-variant-numeric: tabular-nums; line-height:1.15; }
+  .st span { font-size: 10px; color: var(--sub); }
+  .err { color: #d06262; font-size: 12px; padding: 8px; }
+</style>
+</head>
+<body>
+  <div class="head"><div class="t">YOUTUBE LIVE</div><div class="u" id="upd">-</div></div>
+  <div class="grid" id="grid"></div>
+  <div class="err" id="err" hidden></div>
+<script>
+  // usage: yt-stats.html?key=API_KEY&ch=ID1,ID2&n=Name1,Name2&c=%2374e0cf,%23a99cff
+  var q = new URLSearchParams(location.search);
+  var KEY = q.get("key") || "";
+  var IDS = (q.get("ch") || "").split(",").filter(Boolean);
+  var NAMES = (q.get("n") || "").split(",");
+  var COLORS = (q.get("c") || "").split(",");
+  function fmt(n) {
+    n = +n || 0;
+    if (n >= 1e8) return (n/1e8).toFixed(1) + "억";
+    if (n >= 1e4) return (n/1e4).toFixed(1) + "만";
+    return n.toLocaleString("ko-KR");
+  }
+  function render(items) {
+    var byId = {};
+    items.forEach(function(it){ byId[it.id] = it.statistics; });
+    var html = IDS.map(function(id, i){
+      var s = byId[id];
+      var nm = NAMES[i] || ("채널 " + (i+1));
+      var col = COLORS[i] || "var(--accent)";
+      if (!s) return "<div class='ch'><div class='nm'>" + nm + "</div><div class='st'><span>데이터 없음</span></div></div>";
+      return "<div class='ch'><div class='nm'><span class='dot' style='background:" + col + "'></span>" + nm + "</div>" +
+        "<div class='row'>" +
+        "<div class='st'><b>" + fmt(s.subscriberCount) + "</b><span>구독</span></div>" +
+        "<div class='st'><b>" + fmt(s.videoCount) + "</b><span>영상</span></div>" +
+        "<div class='st'><b>" + fmt(s.viewCount) + "</b><span>조회</span></div>" +
+        "</div></div>";
+    }).join("");
+    document.getElementById("grid").innerHTML = html;
+    var d = new Date();
+    document.getElementById("upd").textContent =
+      ("0"+d.getHours()).slice(-2) + ":" + ("0"+d.getMinutes()).slice(-2) + " 갱신";
+  }
+  function load() {
+    if (!KEY || !IDS.length) {
+      document.getElementById("err").hidden = false;
+      document.getElementById("err").textContent = "?key= 와 ?ch= 파라미터가 필요합니다.";
+      return;
+    }
+    fetch("https://www.googleapis.com/youtube/v3/channels?part=statistics&id=" + IDS.join(",") + "&key=" + KEY)
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        if (j.error) throw new Error(j.error.message);
+        render(j.items || []);
+      })
+      .catch(function(e){
+        document.getElementById("err").hidden = false;
+        document.getElementById("err").textContent = "로드 실패: " + e.message;
+      });
+  }
+  load();
+  setInterval(load, 300000); // 5분
+</script>
+</body>
+</html>
