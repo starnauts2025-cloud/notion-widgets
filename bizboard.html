@@ -19,10 +19,15 @@
   .nm{font-size:15px;font-weight:800;line-height:1.2}
   .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
   .rows{font-size:12.5px;line-height:1.5}
-  .rows .r{display:flex;gap:6px}
+  .rows .r{display:flex;gap:6px;margin-top:2px}
   .rows .k{flex-shrink:0;font-weight:700}
   .rows .k.d{color:var(--done)} .rows .k.t{color:var(--todo)}
   .rows .v{color:var(--fg)}
+  .next{margin-top:5px}
+  .next .lbl{font-weight:700;color:var(--todo);font-size:12px}
+  .next ol{margin:2px 0 0;padding-left:17px;font-size:12.5px;line-height:1.45}
+  .next li{color:var(--fg)}
+  .next .empty{color:var(--sub);font-size:12px}
 </style>
 </head>
 <body>
@@ -34,8 +39,10 @@
         '<div class="head"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
         (b.stage?'<div class="stage">'+b.stage+'</div>':'')+'</div></div>'+
         '<div class="rows">'+
-          '<div class="r"><span class="k d">완료</span><span class="v">'+(b.done||"—")+'</span></div>'+
-          '<div class="r"><span class="k t">진행</span><span class="v">'+(b.todo||"—")+'</span></div>'+
+          (b.done?'<div class="r"><span class="k d">완료</span><span class="v">'+b.done+'</span></div>':'')+
+          '<div class="next"><div class="lbl">진행예정</div>'+
+            ((b.next&&b.next.length)?'<ol>'+b.next.map(function(n){return '<li>'+n+'</li>';}).join('')+'</ol>':'<div class="empty">— (STATUS.md 편집)</div>')+
+          '</div>'+
           (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span><span class="v" style="color:var(--sub)">'+b.report+'</span></div>':'')+
         '</div>'+
       '</a>'
