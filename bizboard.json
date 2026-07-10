@@ -1,0 +1,13 @@
+[
+  { "name": "케이링크", "icon": "icons/brand/klink.png", "stage": "운영 · 주소모아 계열", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb" },
+  { "name": "AIKLINK", "icon": "icons/brand/aiklink.png", "stage": "런칭 직전 (Phase 26~30)", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe" },
+  { "name": "타이플", "icon": "icons/brand/thaipl.png", "stage": "본격 개발 진행", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5" },
+  { "name": "리버스 스테이션", "icon": "icons/brand/rebirth.png", "stage": "큐브 리스트 개발", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637" },
+  { "name": "BTC EATERS", "icon": "icons/brand/btceaters.png", "stage": "운영 중 (모니터링)", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be" },
+  { "name": "Placecite", "icon": "icons/brand/placecite.png", "stage": "개발", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2" },
+  { "name": "스타너츠", "icon": "icons/brand/starnauts.png", "stage": "플랫폼 개발", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063" },
+  { "name": "웹북 메이커", "icon": "icons/brand/webbook.png", "stage": "운영 중 (서버)", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87" },
+  { "name": "Playstars List", "icon": "icons/brand/playstars.png", "stage": "플리 채널 운영 (GEKOLIST 등)", "done": "", "todo": "", "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608" },
+  { "name": "Playstars Records", "icon": "icons/brand/psrecords.png", "stage": "LAZE 음원·유통", "done": "", "todo": "", "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92" },
+  { "name": "본사·개인", "icon": "icons/brand/hq.png", "stage": "", "done": "", "todo": "", "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697" }
+]
