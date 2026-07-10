@@ -36,6 +36,7 @@
         '<div class="rows">'+
           '<div class="r"><span class="k d">완료</span><span class="v">'+(b.done||"—")+'</span></div>'+
           '<div class="r"><span class="k t">진행</span><span class="v">'+(b.todo||"—")+'</span></div>'+
+          (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span><span class="v" style="color:var(--sub)">'+b.report+'</span></div>':'')+
         '</div>'+
       '</a>'
     ).join("");
