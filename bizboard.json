@@ -3,99 +3,143 @@
     "name": "케이링크",
     "icon": "icons/brand/klink.png",
     "stage": "운영 · 주소모아 계열",
-    "done": "",
-    "todo": "",
+    "done": "전 페이지 타이틀·메타 정리 + 네비 큐브리스트 통합 + 소개 SEO 위성 페이지 6종",
     "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb",
-    "report": "juso-world (2026-07-06)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "색인 대상 재선정 — thin 페이지 noindex 목록 확정",
+      "진입 랜딩 3종 완성 + 배포 전 결정 3건 확정",
+      "주제 권위 클러스터 착수(안전한 링크 선별)"
+    ]
   },
   {
     "name": "AIKLINK",
     "icon": "icons/brand/aiklink.png",
     "stage": "런칭 직전 (Phase 26~30)",
     "done": "Phase 1~25 (복제·브랜딩·결제·KP·환불·미성년·한도)",
-    "todo": "Phase 26~30 런칭 준비 (aiklink.com DNS 연결)",
     "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
-    "report": "general-content-plan (2026-05-29)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "Vercel 과금 위기 해소·크론 안전 재개 판정",
+      "빌드 재확인·블로그 5편·금기어·KP 결제 검증",
+      "aiklink.com DNS 연결 + GSC/GA soft launch"
+    ]
   },
   {
     "name": "타이플",
     "icon": "icons/brand/thaipl.png",
     "stage": "본격 개발 진행",
-    "done": "",
-    "todo": "",
+    "done": "UI/디자인 감사 수정 적용(color-scheme dark·폰트 preload·아이콘 SVG·a11y, 2026-06-22)",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "content-pipeline-sop (2026-06-16)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "웰니스·마사지 클러스터 4편 우선 발행",
+      "다국어 서브디렉토리+hreflang 구조 스펙 확정",
+      "호텔 어필리에이트(Agoda+Booking) 연동 준비"
+    ]
   },
   {
     "name": "리버스 스테이션",
     "icon": "icons/brand/rebirth.png",
     "stage": "큐브 리스트 개발",
-    "done": "",
-    "todo": "",
+    "done": "큐브리스트 PC v0.1.3 베타 GitHub Release 발행(Ed25519 키·무서명, 2026-07-06)",
     "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637",
-    "report": "STATE (2026-07-05)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "P2 클린 큐브팩 확대(2 10개, QA 4게이트 통과)",
+      "PC 앱 사용자 smoke 검증 후 STATE 기록",
+      "latest.json 자동 업데이트 파이프라인 구성(v0.1.4)"
+    ]
   },
   {
     "name": "BTC EATERS",
     "icon": "icons/brand/btceaters.png",
     "stage": "운영 중 (모니터링)",
     "done": "",
-    "todo": "",
     "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be",
-    "report": ""
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "컨셉 1문장 + MVP 대시보드 지표 확정",
+      "BTC 온체인 데이터 API 조사·서버 스택 확정",
+      "SEO 키워드맵 + 레퍼럴 파트너 선정"
+    ]
   },
   {
     "name": "Placecite",
     "icon": "icons/brand/placecite.png",
     "stage": "개발",
-    "done": "",
-    "todo": "",
+    "done": "AEO Spec v0.1 서빙(스펙·v1 API 6종·SDK 3종)과 4사이트 효과성 캡처(56행) 가동, daily gate 8단계 전부 통과",
     "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2",
-    "report": "effectiveness-plan (2026-05-10)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "Ship-gate 5조건 실측 점검(Level C·blocked-row 0)",
+      "A+B dogfood 2주 카운트·첫 uplift 스냅샷",
+      "schema.org liaison 레터 RFC 승격"
+    ]
   },
   {
     "name": "스타너츠",
     "icon": "icons/brand/starnauts.png",
     "stage": "플랫폼 개발",
-    "done": "",
-    "todo": "",
+    "done": "유튜브 채널 제작 디렉터 에이전트 정본 추가 + 도구 페이지 죽은 코드 제거·플리채널 스튜디오 UI 정합",
     "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
-    "report": "_night-work-260626 (2026-06-27)"
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "출시 도구 1~2종 안정 도메인 배포 + SEO 콘텐츠",
+      "방법론 자료를 CLASS 강의 초안으로 전환",
+      "history 요청 로깅을 리드 지표로 재정의"
+    ]
   },
   {
     "name": "웹북 메이커",
     "icon": "icons/brand/webbook.png",
     "stage": "운영 중 (서버)",
-    "done": "",
-    "todo": "",
+    "done": "검토 게이트 + localhost:4178 파일 기반 게시 체계 운영",
     "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87",
-    "report": ""
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "progress.json 최신 화수 STATUS·노션 반영",
+      "세계관 바이블(문파·무공·인물·연표) 정본화",
+      "검토 게이트 통과율·반려 사유 로깅 추가"
+    ]
   },
   {
     "name": "Playstars List",
     "icon": "icons/brand/playstars.png",
     "stage": "플리 채널 운영 (GEKOLIST 등)",
-    "done": "",
-    "todo": "",
+    "done": "GEKOLIST 03 (AIRPLANE LO-FI) 34곡 CapCut 편집 완료 (총 1:47:42)",
     "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608",
-    "report": ""
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "채널 현황 DB에서 3채널 성과 베이스라인 기록",
+      "썸네일·첫30초 훅 표준을 편집 규칙에 반영",
+      "GEKOLIST Shorts 퍼널 파일럿 (주 2~3편)"
+    ]
   },
   {
     "name": "Playstars Records",
     "icon": "icons/brand/psrecords.png",
     "stage": "LAZE 음원·유통",
-    "done": "",
-    "todo": "",
+    "done": "LAZE 1집 영상 공개(youtube.com/watch?v=5IMT3usPsBY) + DSP 공식 링크 전부 확정",
     "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
-    "report": ""
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "UM에 오리지널 마스터·인간 기여 근거 문서 제출",
+      "Spotify for Artists 발매 14일 전 피칭 루틴 구축",
+      "CINDY 유통·링크 블록 정본화"
+    ]
   },
   {
     "name": "본사·개인",
     "icon": "icons/brand/hq.png",
     "stage": "",
     "done": "",
-    "todo": "",
     "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697",
-    "report": ""
+    "report": "direction-2026-07-10 (2026-07-10)",
+    "next": [
+      "플레이스홀더 6개 사업체 STATUS 실측 갱신",
+      "10개 사업체 ICE 포트폴리오 1페이지 작성",
+      "주간 리뷰 템플릿·루틴 정착 후 첫 리뷰"
+    ]
   }
 ]
