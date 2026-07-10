@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biz Board</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f1f1f; --sub: #787774;
+    --card: #ffffff; --line: #ececea; --recent: #2e7cd6; --next: #d9822b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #191919; --fg: #ececec; --sub: #9b9b9b;
+      --card: #232323; --line: #333; --recent: #5a9fe2; --next: #e09b52; }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    padding: 10px 8px;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+  a.card {
+    display: block; text-decoration: none; color: var(--fg);
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 12px 14px; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  a.card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.10); }
+  .head { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; }
+  .icon { width: 44px; height: 44px; border-radius: 11px; overflow: hidden; flex: none; border: 1px solid var(--line); }
+  .icon img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .name { font-size: 14px; font-weight: 700; line-height: 1.2; }
+  .row { display: flex; gap: 7px; align-items: flex-start; margin-top: 5px; }
+  .chip {
+    flex: none; font-size: 10px; font-weight: 700; letter-spacing: .04em;
+    padding: 2px 7px; border-radius: 6px; margin-top: 1px;
+  }
+  .chip.r { color: var(--recent); background: color-mix(in srgb, var(--recent) 12%, transparent); }
+  .chip.n { color: var(--next); background: color-mix(in srgb, var(--next) 14%, transparent); }
+  .txt { font-size: 12px; color: var(--sub); line-height: 1.45; }
+</style>
+</head>
+<body>
+  <div class="grid" id="grid"></div>
+<script>
+  fetch("biz-board.json?v=" + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(items){
+      document.getElementById("grid").innerHTML = items.map(function(it){
+        return "<a class='card' href='" + it.url + "' target='_blank' rel='noopener'>" +
+          "<div class='head'><div class='icon'><img src='" + it.icon + "' alt='' loading='lazy'></div>" +
+          "<div class='name'>" + it.name + "</div></div>" +
+          "<div class='row'><span class='chip r'>최근</span><span class='txt'>" + it.recent + "</span></div>" +
+          "<div class='row'><span class='chip n'>다음</span><span class='txt'>" + it.next + "</span></div>" +
+          "</a>";
+      }).join("");
+    })
+    .catch(function(){ document.body.textContent = "biz-board.json 로드 실패"; });
+</script>
+</body>
+</html>
