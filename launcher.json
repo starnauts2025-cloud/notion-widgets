@@ -229,7 +229,7 @@
     },
     {
       "name": "유튜브",
-      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%236FB08F",
+      "icon": "https://api.iconify.design/logos/youtube-icon.svg",
       "pad": true,
       "url": "https://app.notion.com/p/384748204dbd81f3a3d2cab7e2867949"
     },
@@ -259,13 +259,13 @@
     },
     {
       "name": "CLAUDE.md 개선안",
-      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23A99CFF",
+      "icon": "https://api.iconify.design/logos/claude-icon.svg",
       "pad": true,
       "url": "https://app.notion.com/p/395748204dbd8159a04bdd039c631b5f"
     },
     {
       "name": "노션 시스템 개선",
-      "icon": "https://api.iconify.design/lucide/book-open.svg?color=%23DB9A3F",
+      "icon": "https://api.iconify.design/logos/notion-icon.svg",
       "pad": true,
       "url": "https://app.notion.com/p/398748204dbd8138843fd1f4f38490ff"
     },
