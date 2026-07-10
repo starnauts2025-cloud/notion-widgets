@@ -108,14 +108,93 @@
     }
   ],
   "yt-hub": [
-    { "name": "유튜브 스터디", "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF", "pad": true, "url": "https://app.notion.com/p/38a748204dbd811ab1f3f40c2563cbc5" },
-    { "name": "Playstars List", "icon": "https://api.iconify.design/lucide/list-music.svg?color=%23DB9A3F", "pad": true, "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608" },
-    { "name": "Playstars Records", "icon": "https://api.iconify.design/lucide/disc-3.svg?color=%23E06CA8", "pad": true, "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92" },
-    { "name": "AI 음원×전략", "icon": "https://api.iconify.design/lucide/shield-alert.svg?color=%23D9B84A", "pad": true, "url": "https://app.notion.com/p/392748204dbd81e8a79cc1bf14c3a476" }
+    {
+      "name": "유튜브 스터디",
+      "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38a748204dbd811ab1f3f40c2563cbc5"
+    },
+    {
+      "name": "Playstars List",
+      "icon": "https://api.iconify.design/lucide/list-music.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608"
+    },
+    {
+      "name": "Playstars Records",
+      "icon": "https://api.iconify.design/lucide/disc-3.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92"
+    },
+    {
+      "name": "AI 음원×전략",
+      "icon": "https://api.iconify.design/lucide/shield-alert.svg?color=%23D9B84A",
+      "pad": true,
+      "url": "https://app.notion.com/p/392748204dbd81e8a79cc1bf14c3a476"
+    }
   ],
   "yt-study": [
-    { "name": "강의 정리", "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF", "pad": true, "url": "https://app.notion.com/p/389748204dbd815da524e65ae77c54cb" },
-    { "name": "트렌드 리서치", "icon": "https://api.iconify.design/lucide/trending-up.svg?color=%2358B8A5", "pad": true, "url": "https://app.notion.com/p/387748204dbd812987b0ebbe9446e252" },
-    { "name": "pariswav·게코 전략", "icon": "https://api.iconify.design/lucide/search.svg?color=%23A99CFF", "pad": true, "url": "https://app.notion.com/p/388748204dbd815499bcfb9b35d871f4" }
+    {
+      "name": "강의 정리",
+      "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/389748204dbd815da524e65ae77c54cb"
+    },
+    {
+      "name": "트렌드 리서치",
+      "icon": "https://api.iconify.design/lucide/trending-up.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/387748204dbd812987b0ebbe9446e252"
+    },
+    {
+      "name": "pariswav·게코 전략",
+      "icon": "https://api.iconify.design/lucide/search.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/388748204dbd815499bcfb9b35d871f4"
+    }
+  ],
+  "records": [
+    {
+      "name": "창작곡 Originals",
+      "icon": "https://api.iconify.design/lucide/disc-3.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/387748204dbd81bbb87fdfd624b1b7fc"
+    },
+    {
+      "name": "SUNO 프롬프트",
+      "icon": "https://api.iconify.design/lucide/sparkles.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/387748204dbd81d09bb8d63dad8e5c3d"
+    },
+    {
+      "name": "LAZE 콘셉트",
+      "icon": "https://api.iconify.design/lucide/mic.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/38a748204dbd814ab039d7f112f30276"
+    },
+    {
+      "name": "CINDY 콘셉트",
+      "icon": "https://api.iconify.design/lucide/star.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd81c9bae1da3dc8f9900c"
+    },
+    {
+      "name": "네이밍·앨범 기획",
+      "icon": "https://api.iconify.design/lucide/album.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38a748204dbd81b5b7eec1dd36247a26"
+    },
+    {
+      "name": "유통사 리서치",
+      "icon": "https://api.iconify.design/lucide/package.svg?color=%236FB08F",
+      "pad": true,
+      "url": "https://app.notion.com/p/38c748204dbd8168b1fad5b91fa302ad"
+    },
+    {
+      "name": "유통 vs 유튜브 수익",
+      "icon": "https://api.iconify.design/lucide/bar-chart-3.svg?color=%23D9B84A",
+      "pad": true,
+      "url": "https://app.notion.com/p/399748204dbd81de9881f0b4d8fb3bbd"
+    }
   ]
 }
