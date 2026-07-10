@@ -8,7 +8,7 @@
     { "name": "Placecite", "icon": "icons/brand/placecite.png", "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2" },
     { "name": "스타너츠", "icon": "icons/brand/starnauts.png", "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063" },
     { "name": "웹북 메이커", "icon": "icons/brand/webbook.png", "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87" },
-    { "name": "Playstars", "icon": "icons/brand/playstars.png", "url": "https://app.notion.com/p/384748204dbd81869facdfa50d00b552" },
+    { "name": "Playstars", "icon": "icons/brand/playstars.png?v=2", "url": "https://app.notion.com/p/384748204dbd81869facdfa50d00b552" },
     { "name": "본사·개인", "icon": "icons/brand/hq.png", "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697" }
   ],
   "youtube": [
