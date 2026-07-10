@@ -1,22 +1,87 @@
 [
-  { "name": "리버스 스테이션", "icon": "icons/brand/rebirth.png", "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637",
-    "recent": "큐브 리스트 PC·모바일 작동 완성 단계", "next": "전사 최우선 — 작동 마무리·베타 준비" },
-  { "name": "케이링크", "icon": "icons/brand/klink.png", "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb",
-    "recent": "케이링크.com 재오픈 — 신규 오픈 라이브", "next": "시스템 전환·초기화 마무리" },
-  { "name": "AIKLINK", "icon": "icons/brand/aiklink.png", "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
-    "recent": "콘텐츠 발행 운영 중", "next": "뉴스 2/일 · 키트가이드 월수금 · 트렌드 일요일" },
-  { "name": "타이플", "icon": "icons/brand/thaipl.png", "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "recent": "보안 안정화 진행", "next": "thaipl_business DB 확인 + 개발 계속" },
-  { "name": "BTC EATERS", "icon": "icons/brand/btceaters.png", "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be",
-    "recent": "자동매매 모니터링 (PC ON 시)", "next": "정확도·테스트 집중" },
-  { "name": "Placecite", "icon": "icons/brand/placecite.png", "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2",
-    "recent": "1단계 시스템 구축 중", "next": "효과 입증 전 외부 배포 금지 유지" },
-  { "name": "스타너츠", "icon": "icons/brand/starnauts.png", "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
-    "recent": "홈 디자인 프로토타입 (정적 HTML)", "next": "홈 확정 후 다음 페이즈" },
-  { "name": "웹북 메이커", "icon": "icons/brand/webbook.png", "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87",
-    "recent": "무협 장기연재 — 4178 서버 상시", "next": "화요일 검토 게이트 운영" },
-  { "name": "Playstars", "icon": "icons/brand/playstars.png?v=2", "url": "https://app.notion.com/p/384748204dbd81869facdfa50d00b552",
-    "recent": "GEKO 02 AIRPLANE 완성 · 관제 시스템 구축", "next": "02 업로드·예약 + SLEEPYTEDDY 01 (07-12)" },
-  { "name": "본사·개인", "icon": "icons/brand/hq.png", "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697",
-    "recent": "노션 시스템 개선 (아이콘·위젯·알림)", "next": "월간 계획 사이클 운영" }
+  {
+    "name": "리버스 스테이션",
+    "icon": "icons/brand/rebirth.png",
+    "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637",
+    "recent": "큐브 리스트 PC·모바일 작동 완성 단계",
+    "next": "전사 최우선 — 작동 마무리·베타 준비"
+  },
+  {
+    "name": "케이링크",
+    "icon": "icons/brand/klink.png",
+    "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb",
+    "recent": "케이링크.com 재오픈 — 신규 오픈 라이브",
+    "next": "시스템 전환·초기화 마무리"
+  },
+  {
+    "name": "AIKLINK",
+    "icon": "icons/brand/aiklink.png",
+    "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
+    "recent": "콘텐츠 발행 운영 중",
+    "next": "뉴스 2/일 · 키트가이드 월수금 · 트렌드 일요일"
+  },
+  {
+    "name": "타이플",
+    "icon": "icons/brand/thaipl.png",
+    "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
+    "recent": "보안 안정화 진행",
+    "next": "thaipl_business DB 확인 + 개발 계속"
+  },
+  {
+    "name": "BTC EATERS",
+    "icon": "icons/brand/btceaters.png",
+    "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be",
+    "recent": "자동매매 모니터링 (PC ON 시)",
+    "next": "정확도·테스트 집중"
+  },
+  {
+    "name": "Placecite",
+    "icon": "icons/brand/placecite.png",
+    "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2",
+    "recent": "1단계 시스템 구축 중",
+    "next": "효과 입증 전 외부 배포 금지 유지"
+  },
+  {
+    "name": "스타너츠",
+    "icon": "icons/brand/starnauts.png",
+    "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
+    "recent": "홈 디자인 프로토타입 (정적 HTML)",
+    "next": "홈 확정 후 다음 페이즈"
+  },
+  {
+    "name": "웹북 메이커",
+    "icon": "icons/brand/webbook.png",
+    "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87",
+    "recent": "무협 장기연재 — 4178 서버 상시",
+    "next": "화요일 검토 게이트 운영"
+  },
+  {
+    "name": "유튜브",
+    "icon": "https://api.iconify.design/lucide/youtube.svg?color=%23E04F4F",
+    "pad": true,
+    "url": "https://app.notion.com/p/384748204dbd81f3a3d2cab7e2867949",
+    "recent": "애니한 클래스 학습 · AI음원×유튜브 전략 정리",
+    "next": "학습 지속 + 유튜브 기본 업무 전반"
+  },
+  {
+    "name": "Playstars List",
+    "icon": "icons/brand/playstars.png?v=2",
+    "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608",
+    "recent": "GEKO 02 AIRPLANE 완성 · 관제 시스템 구축",
+    "next": "02 업로드·예약 + SLEEPYTEDDY 01 (07-12)"
+  },
+  {
+    "name": "Playstars Records",
+    "icon": "icons/brand/psrecords.png",
+    "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
+    "recent": "LAZE 1집 Disconnect 발매(07-10) · MV 제작",
+    "next": "LAZELIST 앨범 업로드 · Not Enough MV"
+  },
+  {
+    "name": "본사·개인",
+    "icon": "icons/brand/hq.png",
+    "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697",
+    "recent": "노션 시스템 개선 (아이콘·위젯·알림)",
+    "next": "월간 계획 사이클 운영"
+  }
 ]

@@ -1,25 +1,110 @@
 {
   "biz": [
-    { "name": "케이링크", "icon": "icons/brand/klink.png", "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb" },
-    { "name": "AIKLINK", "icon": "icons/brand/aiklink.png", "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe" },
-    { "name": "타이플", "icon": "icons/brand/thaipl.png", "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5" },
-    { "name": "리버스 스테이션", "icon": "icons/brand/rebirth.png", "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637" },
-    { "name": "BTC EATERS", "icon": "icons/brand/btceaters.png", "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be" },
-    { "name": "Placecite", "icon": "icons/brand/placecite.png", "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2" },
-    { "name": "스타너츠", "icon": "icons/brand/starnauts.png", "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063" },
-    { "name": "웹북 메이커", "icon": "icons/brand/webbook.png", "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87" },
-    { "name": "Playstars", "icon": "icons/brand/playstars.png?v=2", "url": "https://app.notion.com/p/384748204dbd81869facdfa50d00b552" },
-    { "name": "본사·개인", "icon": "icons/brand/hq.png", "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697" }
+    {
+      "name": "케이링크",
+      "icon": "icons/brand/klink.png",
+      "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb"
+    },
+    {
+      "name": "AIKLINK",
+      "icon": "icons/brand/aiklink.png",
+      "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe"
+    },
+    {
+      "name": "타이플",
+      "icon": "icons/brand/thaipl.png",
+      "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5"
+    },
+    {
+      "name": "리버스 스테이션",
+      "icon": "icons/brand/rebirth.png",
+      "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637"
+    },
+    {
+      "name": "BTC EATERS",
+      "icon": "icons/brand/btceaters.png",
+      "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be"
+    },
+    {
+      "name": "Placecite",
+      "icon": "icons/brand/placecite.png",
+      "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2"
+    },
+    {
+      "name": "스타너츠",
+      "icon": "icons/brand/starnauts.png",
+      "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063"
+    },
+    {
+      "name": "웹북 메이커",
+      "icon": "icons/brand/webbook.png",
+      "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87"
+    },
+    {
+      "name": "Playstars List",
+      "icon": "icons/brand/playstars.png?v=2",
+      "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608"
+    },
+    {
+      "name": "Playstars Records",
+      "icon": "icons/brand/psrecords.png",
+      "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92"
+    },
+    {
+      "name": "본사·개인",
+      "icon": "icons/brand/hq.png",
+      "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697"
+    }
   ],
   "youtube": [
-    { "name": "GEKOLIST", "icon": "icons/brand/gekolist.png", "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5" },
-    { "name": "SLEEPYTEDDY", "icon": "icons/brand/sleepyteddy.png", "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a" },
-    { "name": "HOOTLIST", "icon": "icons/brand/hootlist.png", "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7" },
-    { "name": "LAZE", "icon": "icons/brand/laze.png", "url": "https://app.notion.com/p/38a748204dbd814ab039d7f112f30276" },
-    { "name": "CINDY", "icon": "icons/brand/cindy.png", "url": "https://app.notion.com/p/398748204dbd81c9bae1da3dc8f9900c" },
-    { "name": "플리 대시보드", "icon": "https://api.iconify.design/lucide/gauge.svg?color=%2358B8A5", "pad": true, "url": "https://app.notion.com/p/398748204dbd81c58014ee63786cc019" },
-    { "name": "컨트롤 보드", "icon": "https://api.iconify.design/lucide/database.svg?color=%237A8CA8", "pad": true, "url": "https://app.notion.com/p/398748204dbd814ba3b0ca1bd5893dc3" },
-    { "name": "워크플로우", "icon": "https://api.iconify.design/lucide/refresh-cw.svg?color=%23DB9A3F", "pad": true, "url": "https://app.notion.com/p/398748204dbd81cfa4b7f54055cd5c6f" },
-    { "name": "CapCut 규칙", "icon": "https://api.iconify.design/lucide/scissors.svg?color=%236FB08F", "pad": true, "url": "https://app.notion.com/p/398748204dbd819dafa2cbbc9e2e08ec" }
+    {
+      "name": "GEKOLIST",
+      "icon": "icons/brand/gekolist.png",
+      "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5"
+    },
+    {
+      "name": "SLEEPYTEDDY",
+      "icon": "icons/brand/sleepyteddy.png",
+      "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a"
+    },
+    {
+      "name": "HOOTLIST",
+      "icon": "icons/brand/hootlist.png",
+      "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7"
+    },
+    {
+      "name": "LAZE",
+      "icon": "icons/brand/laze.png",
+      "url": "https://app.notion.com/p/38a748204dbd814ab039d7f112f30276"
+    },
+    {
+      "name": "CINDY",
+      "icon": "icons/brand/cindy.png",
+      "url": "https://app.notion.com/p/398748204dbd81c9bae1da3dc8f9900c"
+    },
+    {
+      "name": "플리 대시보드",
+      "icon": "https://api.iconify.design/lucide/gauge.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd81c58014ee63786cc019"
+    },
+    {
+      "name": "컨트롤 보드",
+      "icon": "https://api.iconify.design/lucide/database.svg?color=%237A8CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd814ba3b0ca1bd5893dc3"
+    },
+    {
+      "name": "워크플로우",
+      "icon": "https://api.iconify.design/lucide/refresh-cw.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd81cfa4b7f54055cd5c6f"
+    },
+    {
+      "name": "CapCut 규칙",
+      "icon": "https://api.iconify.design/lucide/scissors.svg?color=%236FB08F",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd819dafa2cbbc9e2e08ec"
+    }
   ]
 }
