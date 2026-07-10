@@ -196,5 +196,349 @@
       "pad": true,
       "url": "https://app.notion.com/p/399748204dbd81de9881f0b4d8fb3bbd"
     }
+  ],
+  "home": [
+    {
+      "name": "기억할 것",
+      "icon": "https://api.iconify.design/lucide/sticky-note.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/37c748204dbd814db5d3f2cd3b93d801"
+    },
+    {
+      "name": "생산성 시스템",
+      "icon": "https://api.iconify.design/lucide/book-open.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/37c748204dbd81f0b955d4a4bd91c026"
+    },
+    {
+      "name": "일간 체크리스트",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/37c748204dbd8164b70af53926d6c2ca"
+    },
+    {
+      "name": "본사",
+      "icon": "icons/brand/hq.png",
+      "url": "https://app.notion.com/p/37c748204dbd81c3a35efb01abf02697"
+    },
+    {
+      "name": "SEO",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd8165a6ebe1d77a41721d"
+    },
+    {
+      "name": "유튜브",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%236FB08F",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd81f3a3d2cab7e2867949"
+    },
+    {
+      "name": "AI",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23D9B84A",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd815c86cfc834ccd5f159"
+    },
+    {
+      "name": "디자인",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%237A8CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/385748204dbd81ccb877cc091fda9201"
+    },
+    {
+      "name": "사이트",
+      "icon": "https://api.iconify.design/lucide/layout-grid.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38c748204dbd81e288b9f91cba30d1de"
+    },
+    {
+      "name": "오늘",
+      "icon": "https://api.iconify.design/lucide/check-square.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/38d748204dbd8145b60ad60b5ff5e578"
+    },
+    {
+      "name": "CLAUDE.md 개선안",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/395748204dbd8159a04bdd039c631b5f"
+    },
+    {
+      "name": "노션 시스템 개선",
+      "icon": "https://api.iconify.design/lucide/book-open.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/398748204dbd8138843fd1f4f38490ff"
+    },
+    {
+      "name": "[아카이브] 보관함",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/399748204dbd81c8a851ca71aca058b7"
+    }
+  ],
+  "remember": [
+    {
+      "name": "노션 구조 정리 계획",
+      "icon": "https://api.iconify.design/lucide/workflow.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38c748204dbd81e996e0d7319b735692"
+    },
+    {
+      "name": "홈 대시보드 구성 보완",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/38c748204dbd810395fed86754cebe58"
+    },
+    {
+      "name": "자동화 검토 보고서",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/392748204dbd81b09c73c951d1a1c1cc"
+    }
+  ],
+  "ai": [
+    {
+      "name": "업무",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd816ca35ddeb8ee96471d"
+    },
+    {
+      "name": "스터디",
+      "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd814c9cdad45e1a3c068a"
+    },
+    {
+      "name": "에이전트 / 스킬",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd8169b664dd3a7661828b"
+    },
+    {
+      "name": "WordPress AI 플러그인 ",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd81c08da1f4dd730c0ee1"
+    },
+    {
+      "name": "클로드 Fable 5 성능 복제",
+      "icon": "https://api.iconify.design/lucide/book-open.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd81f9a20ceace2b75f891"
+    },
+    {
+      "name": "클로드 거짓말 잡는 법",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%236FB08F",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd814daf2af32215b268d5"
+    },
+    {
+      "name": "2026 트렌드 디자인 프롬프트 ",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%23D9B84A",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd810fb816da728c948d81"
+    },
+    {
+      "name": "AI 돌려쓰기",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%237A8CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd810bbb21fd6e360199a5"
+    },
+    {
+      "name": "Fable 5 공식 프롬프팅 가이",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd8183bd78dbbe072a42b2"
+    },
+    {
+      "name": "2026 에디터가 쓰는 AI 도구",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/397748204dbd81b2b0f4fb5ec6be20ca"
+    },
+    {
+      "name": "AI 투자 데이터 시각화보드",
+      "icon": "icons/brand/btceaters.png",
+      "url": "https://app.notion.com/p/397748204dbd815fbf34c3d2e1456096"
+    }
+  ],
+  "ai-study": [
+    {
+      "name": "GitHub 인기 \"설치형\" AI",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd81a5becaefb26959724b"
+    },
+    {
+      "name": "GitHub 신흥 \"설치형\" AI",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/384748204dbd81278f3ff42c1370e8d4"
+    },
+    {
+      "name": "디자이너 클로드 스킬 10",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/f58748204dbd82ff883481bcbeb19a27"
+    }
+  ],
+  "ai-agents": [
+    {
+      "name": "MCP 서버 인벤토리",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd81e0b07bf2c21c3dab5d"
+    },
+    {
+      "name": "스킬",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd8158ab39c00bdfc97e24"
+    },
+    {
+      "name": "개선 로드맵",
+      "icon": "https://api.iconify.design/lucide/file-text.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd81e88eadf47de48eb4d6"
+    },
+    {
+      "name": "전체 에이전트 자료실",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd81e2af9bc8dd1cde27aa"
+    },
+    {
+      "name": "사용 에이전트",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/393748204dbd81cbb94fd992d1a86a7f"
+    }
+  ],
+  "design": [
+    {
+      "name": "UI 감사",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38d748204dbd810fafd7f10c118eb459"
+    },
+    {
+      "name": "UI 수정 세션",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%2358B8A5",
+      "pad": true,
+      "url": "https://app.notion.com/p/38d748204dbd81cb92bcd43ea62ad4ec"
+    },
+    {
+      "name": "AI MUSIC LAB 디자인",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38d748204dbd814c96e5e6aa4331a126"
+    }
+  ],
+  "ui-audit": [
+    {
+      "name": "리버스 스테이션 + 큐브 리스트",
+      "icon": "icons/brand/rebirth.png",
+      "url": "https://app.notion.com/p/385748204dbd810c9817cfa6c1ddb8c7"
+    },
+    {
+      "name": "타이플",
+      "icon": "icons/brand/thaipl.png",
+      "url": "https://app.notion.com/p/385748204dbd81c8a6c7de9083bad875"
+    },
+    {
+      "name": "에이전트 대시보드",
+      "icon": "https://api.iconify.design/lucide/bot.svg?color=%23A99CFF",
+      "pad": true,
+      "url": "https://app.notion.com/p/385748204dbd81dfbf95c83dca56a096"
+    },
+    {
+      "name": "스타너츠",
+      "icon": "icons/brand/starnauts.png",
+      "url": "https://app.notion.com/p/385748204dbd8115ab4ad43180ffc26c"
+    },
+    {
+      "name": "impeccable 브랜드 일관성",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/386748204dbd8194b492cb22135483ca"
+    }
+  ],
+  "ui-fix": [
+    {
+      "name": "세션 1",
+      "icon": "icons/brand/rebirth.png",
+      "url": "https://app.notion.com/p/385748204dbd81dba680c39d2a264616"
+    },
+    {
+      "name": "세션 2",
+      "icon": "icons/brand/thaipl.png",
+      "url": "https://app.notion.com/p/385748204dbd8197b029dbb3820dc65b"
+    },
+    {
+      "name": "세션 4",
+      "icon": "icons/brand/starnauts.png",
+      "url": "https://app.notion.com/p/386748204dbd81579446cabeaa0ac810"
+    },
+    {
+      "name": "세션 3",
+      "icon": "https://api.iconify.design/lucide/wrench.svg?color=%23DB9A3F",
+      "pad": true,
+      "url": "https://app.notion.com/p/386748204dbd810e91e7c31effcee2d4"
+    },
+    {
+      "name": "종합",
+      "icon": "https://api.iconify.design/lucide/clipboard-check.svg?color=%23E06CA8",
+      "pad": true,
+      "url": "https://app.notion.com/p/386748204dbd813ebdc7d3824a8e6bd3"
+    }
+  ],
+  "sites": [
+    {
+      "name": "리버스 스테이션",
+      "icon": "icons/brand/rebirth.png",
+      "url": "https://app.notion.com/p/37c748204dbd8199ab42f16cf9821637"
+    },
+    {
+      "name": "케이링크",
+      "icon": "icons/brand/klink.png",
+      "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb"
+    },
+    {
+      "name": "AIKLINK",
+      "icon": "icons/brand/klink.png",
+      "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe"
+    },
+    {
+      "name": "타이플",
+      "icon": "icons/brand/thaipl.png",
+      "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5"
+    },
+    {
+      "name": "BTC EATERS",
+      "icon": "icons/brand/btceaters.png",
+      "url": "https://app.notion.com/p/37c748204dbd819a908ad895a91627be"
+    },
+    {
+      "name": "Placecite",
+      "icon": "icons/brand/placecite.png",
+      "url": "https://app.notion.com/p/37c748204dbd81b5acdee6be54b653a2"
+    },
+    {
+      "name": "스타너츠",
+      "icon": "icons/brand/starnauts.png",
+      "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063"
+    },
+    {
+      "name": "웹북 메이커",
+      "icon": "icons/brand/webbook.png",
+      "url": "https://app.notion.com/p/37c748204dbd81cebd2df09f7e531c87"
+    },
+    {
+      "name": "채널 만들기 + 필수 셋팅",
+      "icon": "https://api.iconify.design/lucide/list-music.svg?color=%235B8DEF",
+      "pad": true,
+      "url": "https://app.notion.com/p/38c748204dbd813a96a2d935bbf6cd6b"
+    }
   ]
 }
