@@ -106,5 +106,16 @@
       "pad": true,
       "url": "https://app.notion.com/p/398748204dbd819dafa2cbbc9e2e08ec"
     }
+  ],
+  "yt-hub": [
+    { "name": "유튜브 스터디", "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF", "pad": true, "url": "https://app.notion.com/p/38a748204dbd811ab1f3f40c2563cbc5" },
+    { "name": "Playstars List", "icon": "https://api.iconify.design/lucide/list-music.svg?color=%23DB9A3F", "pad": true, "url": "https://app.notion.com/p/38a748204dbd81ca82ebc63200d18608" },
+    { "name": "Playstars Records", "icon": "https://api.iconify.design/lucide/disc-3.svg?color=%23E06CA8", "pad": true, "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92" },
+    { "name": "AI 음원×전략", "icon": "https://api.iconify.design/lucide/shield-alert.svg?color=%23D9B84A", "pad": true, "url": "https://app.notion.com/p/392748204dbd81e8a79cc1bf14c3a476" }
+  ],
+  "yt-study": [
+    { "name": "강의 정리", "icon": "https://api.iconify.design/lucide/graduation-cap.svg?color=%235B8DEF", "pad": true, "url": "https://app.notion.com/p/389748204dbd815da524e65ae77c54cb" },
+    { "name": "트렌드 리서치", "icon": "https://api.iconify.design/lucide/trending-up.svg?color=%2358B8A5", "pad": true, "url": "https://app.notion.com/p/387748204dbd812987b0ebbe9446e252" },
+    { "name": "pariswav·게코 전략", "icon": "https://api.iconify.design/lucide/search.svg?color=%23A99CFF", "pad": true, "url": "https://app.notion.com/p/388748204dbd815499bcfb9b35d871f4" }
   ]
 }
