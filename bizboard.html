@@ -12,9 +12,11 @@
   .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
   @media(max-width:720px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media(max-width:460px){.grid{grid-template-columns:1fr}}
-  a.card{display:block;text-decoration:none;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;transition:transform .14s,box-shadow .14s,border-color .14s}
-  a.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.10);border-color:#b9c4d6}
-  .head{display:flex;align-items:center;gap:10px;margin-bottom:9px}
+  .card{display:block;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;transition:transform .14s,box-shadow .14s,border-color .14s}
+  .card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.10);border-color:#b9c4d6}
+  .head{display:flex;align-items:center;gap:10px;margin-bottom:9px;text-decoration:none;color:var(--fg)}
+  .rep{color:var(--sub);text-decoration:none;border-bottom:1px dotted var(--sub)}
+  .rep:hover{color:var(--todo);border-bottom-color:var(--todo)}
   .ic{width:44px;height:44px;border-radius:11px;flex-shrink:0;object-fit:cover;border:1px solid var(--line);background:#fff}
   .nm{font-size:15px;font-weight:800;line-height:1.2}
   .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
@@ -35,17 +37,19 @@
 <script>
   fetch("bizboard.json?v="+Date.now()).then(r=>r.json()).then(list=>{
     document.getElementById("grid").innerHTML = list.map(b=>
-      '<a class="card" href="'+b.url+'" target="_blank" rel="noopener">'+
-        '<div class="head"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
-        (b.stage?'<div class="stage">'+b.stage+'</div>':'')+'</div></div>'+
+      '<div class="card">'+
+        '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
+        (b.stage?'<div class="stage">'+b.stage+'</div>':'')+'</div></a>'+
         '<div class="rows">'+
           (b.done?'<div class="r"><span class="k d">완료</span><span class="v">'+b.done+'</span></div>':'')+
           '<div class="next"><div class="lbl">진행예정</div>'+
             ((b.next&&b.next.length)?'<ol>'+b.next.map(function(n){return '<li>'+n+'</li>';}).join('')+'</ol>':'<div class="empty">— (STATUS.md 편집)</div>')+
           '</div>'+
-          (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span><span class="v" style="color:var(--sub)">'+b.report+'</span></div>':'')+
+          (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span>'+
+            (b.reportUrl?'<a class="rep" href="'+b.reportUrl+'" target="_blank" rel="noopener">'+b.report+' →</a>':'<span class="v" style="color:var(--sub)">'+b.report+'</span>')+
+          '</div>':'')+
         '</div>'+
-      '</a>'
+      '</div>'
     ).join("");
   }).catch(e=>{document.getElementById("grid").innerHTML='<div style="color:#c0392b">bizboard.json 로드 실패</div>';});
 </script>

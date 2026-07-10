@@ -10,7 +10,8 @@
       "색인 대상 재선정 — thin 페이지 noindex 목록 확정",
       "진입 랜딩 3종 완성 + 배포 전 결정 3건 확정",
       "주제 권위 클러스터 착수(안전한 링크 선별)"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd81ceb01cc7c05a3b50d7"
   },
   {
     "name": "AIKLINK",
@@ -23,7 +24,8 @@
       "Vercel 과금 위기 해소·크론 안전 재개 판정",
       "빌드 재확인·블로그 5편·금기어·KP 결제 검증",
       "aiklink.com DNS 연결 + GSC/GA soft launch"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd8122a59cfb0924e349bb"
   },
   {
     "name": "타이플",
@@ -36,7 +38,8 @@
       "웰니스·마사지 클러스터 4편 우선 발행",
       "다국어 서브디렉토리+hreflang 구조 스펙 확정",
       "호텔 어필리에이트(Agoda+Booking) 연동 준비"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd812a973dd581f778c476"
   },
   {
     "name": "리버스 스테이션",
@@ -49,7 +52,8 @@
       "P2 클린 큐브팩 확대(2 10개, QA 4게이트 통과)",
       "PC 앱 사용자 smoke 검증 후 STATE 기록",
       "latest.json 자동 업데이트 파이프라인 구성(v0.1.4)"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd8194bd52d694124689ff"
   },
   {
     "name": "BTC EATERS",
@@ -62,7 +66,8 @@
       "컨셉 1문장 + MVP 대시보드 지표 확정",
       "BTC 온체인 데이터 API 조사·서버 스택 확정",
       "SEO 키워드맵 + 레퍼럴 파트너 선정"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd813583f4ebf75702db9b"
   },
   {
     "name": "Placecite",
@@ -75,7 +80,8 @@
       "Ship-gate 5조건 실측 점검(Level C·blocked-row 0)",
       "A+B dogfood 2주 카운트·첫 uplift 스냅샷",
       "schema.org liaison 레터 RFC 승격"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd81628ed8f77d5ae4adb2"
   },
   {
     "name": "스타너츠",
@@ -88,7 +94,8 @@
       "출시 도구 1~2종 안정 도메인 배포 + SEO 콘텐츠",
       "방법론 자료를 CLASS 강의 초안으로 전환",
       "history 요청 로깅을 리드 지표로 재정의"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd8153b745d8b448127247"
   },
   {
     "name": "웹북 메이커",
@@ -101,7 +108,8 @@
       "progress.json 최신 화수 STATUS·노션 반영",
       "세계관 바이블(문파·무공·인물·연표) 정본화",
       "검토 게이트 통과율·반려 사유 로깅 추가"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd81eba53cd18955cd1e79"
   },
   {
     "name": "Playstars List",
@@ -114,7 +122,8 @@
       "채널 현황 DB에서 3채널 성과 베이스라인 기록",
       "썸네일·첫30초 훅 표준을 편집 규칙에 반영",
       "GEKOLIST Shorts 퍼널 파일럿 (주 2~3편)"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd8148b941e2614b4d95b4"
   },
   {
     "name": "Playstars Records",
@@ -127,7 +136,8 @@
       "UM에 오리지널 마스터·인간 기여 근거 문서 제출",
       "Spotify for Artists 발매 14일 전 피칭 루틴 구축",
       "CINDY 유통·링크 블록 정본화"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd810585dbced79b0c1255"
   },
   {
     "name": "본사·개인",
@@ -140,6 +150,7 @@
       "플레이스홀더 6개 사업체 STATUS 실측 갱신",
       "10개 사업체 ICE 포트폴리오 1페이지 작성",
       "주간 리뷰 템플릿·루틴 정착 후 첫 리뷰"
-    ]
+    ],
+    "reportUrl": "https://app.notion.com/p/399748204dbd817696d1f7dc0d422ad7"
   }
 ]
