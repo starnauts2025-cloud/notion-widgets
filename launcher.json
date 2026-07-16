@@ -59,22 +59,42 @@
   "youtube": [
     {
       "name": "GEKOLIST",
-      "icon": "icons/brand/gekolist.png",
+      "icon": "icons/brand/gekolist.png?v=3",
       "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5"
     },
     {
       "name": "SLEEPYTEDDY",
-      "icon": "icons/brand/sleepyteddy.png",
+      "icon": "icons/brand/sleepyteddy.png?v=3",
       "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a"
     },
     {
-      "name": "HOOTLIST",
-      "icon": "icons/brand/hootlist.png",
+      "name": "WHALELIST",
+      "icon": "icons/brand/whalelist.png?v=3",
+      "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90"
+    },
+    {
+      "name": "FUKULIST",
+      "icon": "icons/brand/fukulist.png?v=3",
       "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7"
     },
     {
+      "name": "PENGLIST",
+      "icon": "icons/brand/penglist.png?v=3",
+      "url": "https://app.notion.com/p/39f748204dbd8170ac7ec172fe05f45c"
+    },
+    {
+      "name": "URBANBASE",
+      "icon": "icons/brand/urbanbaselist.png?v=3",
+      "url": "https://app.notion.com/p/39f748204dbd81d5b67ad7ceac87176a"
+    },
+    {
+      "name": "BANGKOK",
+      "icon": "icons/brand/bangkokplaylist.png?v=3",
+      "url": "https://app.notion.com/p/39c748204dbd81da801ac8846a4fb7c8"
+    },
+    {
       "name": "LAZE",
-      "icon": "icons/brand/laze.png",
+      "icon": "icons/brand/laze.png?v=3",
       "url": "https://app.notion.com/p/38a748204dbd814ab039d7f112f30276"
     },
     {
