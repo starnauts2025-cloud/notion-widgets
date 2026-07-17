@@ -46,7 +46,7 @@
       if (b.reserved != null) {
         var base = b.target||4, safe = b.safe||8;
         var cls = b.reserved >= safe ? 'safe' : (b.reserved >= base ? 'ok' : (b.reserved > 0 ? 'low' : 'zero'));
-        q = stats+' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+base+' (안전 '+safe+')</span>'+
+        q = stats+' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+base+'</span>'+
             ' · 다음 발행 '+(b.nextPub?b.nextPub:'—');
       } else if (b.stage) { q = stats ? stats+' · '+b.stage : b.stage; }
       var st = '';
