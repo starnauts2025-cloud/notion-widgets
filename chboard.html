@@ -56,8 +56,8 @@
         st = '<span class="start">'+b.start.slice(2).replace(/-/g,'/')+' <b>+'+days+'</b></span>';
       }
       return '<div class="card">'+
-        '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
-        (q?'<div class="stage">'+q+'</div>':'')+'</div>'+st+'</a>'+
+        '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div></div>'+st+'</a>'+
+        (q?'<div class="stage" style="margin:-4px 0 7px">'+q+'</div>':'')+
         '<div class="rows">'+
           (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span>'+
             (b.reportUrl?'<a class="rep" href="'+b.reportUrl+'" target="_blank" rel="noopener">'+b.report+' →</a>':'<span class="v" style="color:var(--sub)">'+b.report+'</span>')+
