@@ -77,6 +77,8 @@
   {
     "name": "LAZE (참고)",
     "icon": "icons/brand/laze.png",
+    "subs": 6,
+    "videos": 2,
     "stage": "음원 연동 채널",
     "scheduled": "Not Enough MV 07-19(일) 공개 — 싱글 발매일",
     "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
