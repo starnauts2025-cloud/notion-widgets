@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Channel Board</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f1f1f; --sub:#787774; --card:#ffffff; --line:#e3e2df; --done:#4a9b6e; --todo:#c98a2b; }
+  @media (prefers-color-scheme: dark){ :root{ --bg:#191919; --fg:#ececec; --sub:#9b9b9b; --card:#202020; --line:#3a3a3a; --done:#5fbf87; --todo:#e0a95a; } }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;padding:10px}
+  .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  @media(max-width:720px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media(max-width:460px){.grid{grid-template-columns:1fr}}
+  .card{display:block;color:var(--fg);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;transition:transform .14s,box-shadow .14s,border-color .14s}
+  .card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.10);border-color:#b9c4d6}
+  .head{display:flex;align-items:center;gap:10px;margin-bottom:9px;text-decoration:none;color:var(--fg)}
+  .ic{width:44px;height:44px;border-radius:11px;flex-shrink:0;object-fit:cover;border:1px solid var(--line);background:#fff}
+  .nm{font-size:15px;font-weight:800;line-height:1.2}
+  .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
+  .quota{font-weight:800}
+  .quota.ok{color:var(--done)} .quota.low{color:var(--todo)} .quota.zero{color:#c0392b}
+  .rows{font-size:12.5px;line-height:1.5}
+  .rows .r{display:flex;gap:6px;margin-top:2px}
+  .rows .k{flex-shrink:0;font-weight:700}
+  .rows .k.d{color:var(--done)}
+  .rows .v{color:var(--fg)}
+  .next{margin-top:5px}
+  .next .lbl{font-weight:700;color:var(--todo);font-size:12px}
+  .next ol{margin:2px 0 0;padding-left:17px;font-size:12.5px;line-height:1.45}
+  .next li{color:var(--fg)}
+  .next .empty{color:var(--sub);font-size:12px}
+</style>
+</head>
+<body>
+  <div class="grid" id="grid"></div>
+<script>
+  fetch("chboard.json?v="+Date.now()).then(r=>r.json()).then(list=>{
+    document.getElementById("grid").innerHTML = list.map(b=>{
+      var q = '';
+      if (b.reserved != null) {
+        var cls = b.reserved >= (b.target||4) ? 'ok' : (b.reserved > 0 ? 'low' : 'zero');
+        q = '<span class="quota '+cls+'">예약 '+b.reserved+'/'+(b.target||4)+'</span>'+(b.slot?' · '+b.slot:'');
+      } else if (b.stage) { q = b.stage; }
+      return '<div class="card">'+
+        '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
+        (q?'<div class="stage">'+q+'</div>':'')+'</div></a>'+
+        '<div class="rows">'+
+          (b.scheduled?'<div class="r"><span class="k d">예약</span><span class="v">'+b.scheduled+'</span></div>':'')+
+          '<div class="next"><div class="lbl">잔여 작업</div>'+
+            ((b.next&&b.next.length)?'<ol>'+b.next.map(function(n){return '<li>'+n+'</li>';}).join('')+'</ol>':'<div class="empty">—</div>')+
+          '</div>'+
+        '</div>'+
+      '</div>';
+    }).join("");
+  }).catch(e=>{document.getElementById("grid").innerHTML='<div style="color:#c0392b">chboard.json 로드 실패</div>';});
+</script>
+</body>
+</html>

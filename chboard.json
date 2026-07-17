@@ -1,0 +1,77 @@
+[
+  {
+    "name": "GEKOLIST",
+    "icon": "icons/brand/gekolist.png",
+    "reserved": 2,
+    "target": 4,
+    "slot": "금 21:00",
+    "scheduled": "03 MONDAY LO-FI(07-17 금) · 04 Summer(07-24 금)",
+    "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5",
+    "next": [
+      "RAINY R&B 업로드 페이지 생성 → 예약",
+      "신규 1개 컨셉 확정 → 제작"
+    ]
+  },
+  {
+    "name": "SLEEPYTEDDYLIST",
+    "icon": "icons/brand/sleepyteddy.png",
+    "reserved": 1,
+    "target": 4,
+    "slot": "일 22:00",
+    "scheduled": "02 CAMPFIRE(07-19 일)",
+    "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a",
+    "next": [
+      "RAINY WAIT 곡 제작(컨셉 확정됨)",
+      "BEACH FLOAT·WITH COFFEE 장르 테스트 청취"
+    ]
+  },
+  {
+    "name": "WHALELIST",
+    "icon": "icons/brand/whalelist.png",
+    "reserved": 2,
+    "target": 4,
+    "slot": "수 22:00",
+    "scheduled": "01 THE DEEP DESCENT(07-22 수) · 02 Soft Night(07-29 수)",
+    "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
+    "next": [
+      "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약",
+      "01·02 리믹스 불가·엔드스크린(Studio 수동)"
+    ]
+  },
+  {
+    "name": "FUKULIST",
+    "icon": "icons/brand/fukulist.png",
+    "reserved": 0,
+    "target": 4,
+    "slot": "목 21:00",
+    "scheduled": "",
+    "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7",
+    "next": [
+      "첫 콘텐츠 컨셉 기획(jpop-lyricist)",
+      "전화 인증 + 숙성 활동 이틀+ 선행"
+    ]
+  },
+  {
+    "name": "PENGLIST",
+    "icon": "icons/brand/penglist.png",
+    "reserved": 0,
+    "target": 4,
+    "slot": "토 20:00",
+    "scheduled": "",
+    "url": "https://app.notion.com/p/39f748204dbd8170ac7ec172fe05f45c",
+    "next": [
+      "첫 콘텐츠 컨셉 기획(edm-lyricist)",
+      "전화 인증 + 숙성 활동 이틀+ 선행"
+    ]
+  },
+  {
+    "name": "LAZE (참고)",
+    "icon": "icons/brand/laze.png",
+    "stage": "음원 연동 채널",
+    "scheduled": "Not Enough MV 07-19(일) 공개 — 싱글 발매일",
+    "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
+    "next": [
+      "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
+    ]
+  }
+]
