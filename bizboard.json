@@ -31,13 +31,13 @@
     "name": "타이플",
     "icon": "icons/brand/thaipl.png",
     "stage": "본격 개발 진행",
-    "done": "UI/디자인 감사 수정 적용(color-scheme dark·폰트 preload·아이콘 SVG·a11y, 2026-06-22)",
+    "done": "웰니스·마사지 클러스터 블로그 4편 발행(수쿰빗·실롬시암·파타야·푸켓) + 다국어 구조 스펙 확정(docs/i18n-structure-spec.md) (2026-",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "direction-2026-07-10 (2026-07-10)",
+    "report": "photo-normalization-research-2026-07-18 (2026-07-17)",
     "next": [
-      "웰니스·마사지 클러스터 4편 우선 발행",
-      "다국어 서브디렉토리+hreflang 구조 스펙 확정",
-      "호텔 어필리에이트(Agoda+Booking) 연동 준비"
+      "호텔 어필리에이트(Agoda+Booking) 연동 준비 — 파트너 계정 발급(사용자)",
+      "다국어 Stage EN-1 착수 — /en/ 업체 상세+카테고리 허브 번역",
+      "웰니스 경계 사례 4건(nightlife 태그·일반 웰니스명) 분류 결정 — 사장님 확인"
     ],
     "reportUrl": "https://app.notion.com/p/399748204dbd812a973dd581f778c476"
   },
@@ -87,7 +87,7 @@
     "name": "스타너츠",
     "icon": "icons/brand/starnauts.png",
     "stage": "플랫폼 개발",
-    "done": "유튜브 채널 제작 디렉터 에이전트 정본 추가 + 도구 페이지 죽은 코드 제거·플리채널 스튜디오 UI 정합",
+    "done": "Gemini 키 이름 starnauts_key_gemini로 통일 + 구 키(starnauts_gem_key) 1회 자동 이관 — 도구별 \"다시 연결\" 원인 제거",
     "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
     "report": "direction-2026-07-10 (2026-07-10)",
     "next": [
