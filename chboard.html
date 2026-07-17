@@ -40,7 +40,9 @@
       var q = '';
       if (b.reserved != null) {
         var cls = b.reserved >= (b.target||4) ? 'ok' : (b.reserved > 0 ? 'low' : 'zero');
-        q = '<span class="quota '+cls+'">예약 '+b.reserved+'/'+(b.target||4)+'</span>'+(b.slot?' · '+b.slot:'');
+        q = '구독자 '+(b.subs!=null?b.subs:'?')+' · 발행 '+(b.videos!=null?b.videos:'?')+
+            ' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+(b.target||4)+'</span>'+
+            ' · 다음 발행 '+(b.nextPub?b.nextPub:'—');
       } else if (b.stage) { q = b.stage; }
       return '<div class="card">'+
         '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+

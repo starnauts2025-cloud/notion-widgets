@@ -2,22 +2,26 @@
   {
     "name": "GEKOLIST",
     "icon": "icons/brand/gekolist.png",
-    "reserved": 2,
+    "subs": 308,
+    "videos": 3,
+    "reserved": 1,
     "target": 4,
-    "slot": "금 21:00",
-    "scheduled": "03 MONDAY LO-FI(07-17 금) · 04 Summer(07-24 금)",
+    "nextPub": "금 07-24 21:00",
+    "scheduled": "04 Summer(07-24 금)",
     "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5",
     "next": [
       "RAINY R&B 업로드 페이지 생성 → 예약",
-      "신규 1개 컨셉 확정 → 제작"
+      "신규 컨셉 확정 → 제작 (예약 +3 필요)"
     ]
   },
   {
     "name": "SLEEPYTEDDYLIST",
     "icon": "icons/brand/sleepyteddy.png",
+    "subs": 4,
+    "videos": 1,
     "reserved": 1,
     "target": 4,
-    "slot": "일 22:00",
+    "nextPub": "일 07-19 22:00",
     "scheduled": "02 CAMPFIRE(07-19 일)",
     "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a",
     "next": [
@@ -28,9 +32,11 @@
   {
     "name": "WHALELIST",
     "icon": "icons/brand/whalelist.png",
+    "subs": 0,
+    "videos": 0,
     "reserved": 2,
     "target": 4,
-    "slot": "수 22:00",
+    "nextPub": "수 07-22 22:00",
     "scheduled": "01 THE DEEP DESCENT(07-22 수) · 02 Soft Night(07-29 수)",
     "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
     "next": [
@@ -41,26 +47,30 @@
   {
     "name": "FUKULIST",
     "icon": "icons/brand/fukulist.png",
+    "subs": 0,
+    "videos": 0,
     "reserved": 0,
     "target": 4,
-    "slot": "목 21:00",
+    "nextPub": "",
     "scheduled": "",
     "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7",
     "next": [
-      "첫 콘텐츠 컨셉 기획(jpop-lyricist)",
+      "첫 콘텐츠 컨셉 기획(jpop-lyricist) · 슬롯 목 21:00",
       "전화 인증 + 숙성 활동 이틀+ 선행"
     ]
   },
   {
     "name": "PENGLIST",
     "icon": "icons/brand/penglist.png",
+    "subs": 0,
+    "videos": 0,
     "reserved": 0,
     "target": 4,
-    "slot": "토 20:00",
+    "nextPub": "",
     "scheduled": "",
     "url": "https://app.notion.com/p/39f748204dbd8170ac7ec172fe05f45c",
     "next": [
-      "첫 콘텐츠 컨셉 기획(edm-lyricist)",
+      "첫 콘텐츠 컨셉 기획(edm-lyricist) · 슬롯 토 20:00",
       "전화 인증 + 숙성 활동 이틀+ 선행"
     ]
   },
