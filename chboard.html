@@ -19,6 +19,7 @@
   .nm{font-size:15px;font-weight:800;line-height:1.2}
   .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
   .start{margin-left:auto;align-self:flex-start;font-size:11.5px;color:var(--sub);white-space:nowrap}
+  .start b{font-weight:800;color:#7ec850}
   .quota{font-weight:800}
   .quota.safe{color:var(--done)} .quota.ok{color:#7a9e3b} .quota.low{color:var(--todo)} .quota.zero{color:#c0392b}
   .rep{color:var(--sub);text-decoration:none;border-bottom:1px dotted var(--sub)}
@@ -52,7 +53,7 @@
       if (b.start) {
         var sd = new Date(b.start+'T00:00:00');
         var days = Math.floor((new Date().setHours(0,0,0,0) - sd.getTime())/86400000) + 1;
-        st = '<span class="start">'+b.start.slice(2).replace(/-/g,'/')+' (+'+days+')</span>';
+        st = '<span class="start">'+b.start.slice(2).replace(/-/g,'/')+' <b>+'+days+'</b></span>';
       }
       return '<div class="card">'+
         '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
