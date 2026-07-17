@@ -20,7 +20,9 @@
   .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
   .start{margin-left:auto;align-self:flex-start;font-size:11.5px;color:var(--sub);white-space:nowrap}
   .quota{font-weight:800}
-  .quota.ok{color:var(--done)} .quota.low{color:var(--todo)} .quota.zero{color:#c0392b}
+  .quota.safe{color:var(--done)} .quota.ok{color:#7a9e3b} .quota.low{color:var(--todo)} .quota.zero{color:#c0392b}
+  .rep{color:var(--sub);text-decoration:none;border-bottom:1px dotted var(--sub)}
+  .rep:hover{color:var(--todo);border-bottom-color:var(--todo)}
   .rows{font-size:12.5px;line-height:1.5}
   .rows .r{display:flex;gap:6px;margin-top:2px}
   .rows .k{flex-shrink:0;font-weight:700}
@@ -41,8 +43,9 @@
       var q = '';
       var stats = (b.subs!=null||b.videos!=null) ? '구독자 '+(b.subs!=null?b.subs:'?')+' · 발행 '+(b.videos!=null?b.videos:'?') : '';
       if (b.reserved != null) {
-        var cls = b.reserved >= (b.target||4) ? 'ok' : (b.reserved > 0 ? 'low' : 'zero');
-        q = stats+' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+(b.target||4)+'</span>'+
+        var base = b.target||4, safe = b.safe||8;
+        var cls = b.reserved >= safe ? 'safe' : (b.reserved >= base ? 'ok' : (b.reserved > 0 ? 'low' : 'zero'));
+        q = stats+' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+base+' (안전 '+safe+')</span>'+
             ' · 다음 발행 '+(b.nextPub?b.nextPub:'—');
       } else if (b.stage) { q = stats ? stats+' · '+b.stage : b.stage; }
       var st = '';
@@ -55,6 +58,9 @@
         '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
         (q?'<div class="stage">'+q+'</div>':'')+'</div>'+st+'</a>'+
         '<div class="rows">'+
+          (b.report?'<div class="r"><span class="k" style="color:var(--sub)">보고서</span>'+
+            (b.reportUrl?'<a class="rep" href="'+b.reportUrl+'" target="_blank" rel="noopener">'+b.report+' →</a>':'<span class="v" style="color:var(--sub)">'+b.report+'</span>')+
+          '</div>':'')+
           (b.scheduled?'<div class="r"><span class="k d">예약</span><span class="v">'+b.scheduled+'</span></div>':'')+
           '<div class="next"><div class="lbl">잔여 작업</div>'+
             ((b.next&&b.next.length)?'<ol>'+b.next.map(function(n){return '<li>'+n+'</li>';}).join('')+'</ol>':'<div class="empty">—</div>')+

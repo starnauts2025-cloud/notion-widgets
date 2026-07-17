@@ -13,7 +13,8 @@
       "RAINY R&B 업로드 페이지 생성 → 예약",
       "신규 컨셉 확정 → 제작 (예약 +3 필요)"
     ],
-    "start": "2026-07-03"
+    "start": "2026-07-03",
+    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
   },
   {
     "name": "SLEEPYTEDDYLIST",
@@ -29,7 +30,8 @@
       "RAINY WAIT 곡 제작(컨셉 확정됨)",
       "BEACH FLOAT·WITH COFFEE 장르 테스트 청취"
     ],
-    "start": "2026-07-12"
+    "start": "2026-07-12",
+    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
   },
   {
     "name": "WHALELIST",
@@ -44,7 +46,8 @@
     "next": [
       "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약",
       "01·02 리믹스 불가·엔드스크린(Studio 수동)"
-    ]
+    ],
+    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
   },
   {
     "name": "FUKULIST",
@@ -87,6 +90,7 @@
     "next": [
       "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
     ],
-    "start": "2026-07-10"
+    "start": "2026-07-10",
+    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
   }
 ]
