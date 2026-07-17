@@ -18,6 +18,7 @@
   .ic{width:44px;height:44px;border-radius:11px;flex-shrink:0;object-fit:cover;border:1px solid var(--line);background:#fff}
   .nm{font-size:15px;font-weight:800;line-height:1.2}
   .stage{font-size:11.5px;color:var(--sub);margin-top:2px}
+  .start{margin-left:auto;align-self:flex-start;font-size:11.5px;color:var(--sub);white-space:nowrap}
   .quota{font-weight:800}
   .quota.ok{color:var(--done)} .quota.low{color:var(--todo)} .quota.zero{color:#c0392b}
   .rows{font-size:12.5px;line-height:1.5}
@@ -44,9 +45,15 @@
         q = stats+' · <span class="quota '+cls+'">예약 '+b.reserved+'/'+(b.target||4)+'</span>'+
             ' · 다음 발행 '+(b.nextPub?b.nextPub:'—');
       } else if (b.stage) { q = stats ? stats+' · '+b.stage : b.stage; }
+      var st = '';
+      if (b.start) {
+        var sd = new Date(b.start+'T00:00:00');
+        var days = Math.floor((new Date().setHours(0,0,0,0) - sd.getTime())/86400000) + 1;
+        st = '<span class="start">'+b.start.slice(2).replace(/-/g,'/')+' (+'+days+')</span>';
+      }
       return '<div class="card">'+
         '<a class="head" href="'+b.url+'" target="_blank" rel="noopener"><img class="ic" src="'+b.icon+'" alt=""><div><div class="nm">'+b.name+'</div>'+
-        (q?'<div class="stage">'+q+'</div>':'')+'</div></a>'+
+        (q?'<div class="stage">'+q+'</div>':'')+'</div>'+st+'</a>'+
         '<div class="rows">'+
           (b.scheduled?'<div class="r"><span class="k d">예약</span><span class="v">'+b.scheduled+'</span></div>':'')+
           '<div class="next"><div class="lbl">잔여 작업</div>'+
