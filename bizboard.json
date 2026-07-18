@@ -31,13 +31,13 @@
     "name": "타이플",
     "icon": "icons/brand/thaipl.png",
     "stage": "본격 개발 진행",
-    "done": "웰니스·마사지 클러스터 블로그 4편 발행(수쿰빗·실롬시암·파타야·푸켓) + 다국어 구조 스펙 확정(docs/i18n-structure-spec.md) (2026-",
+    "done": "사진 정상화 대량 배치 완주 — TripAdvisor 무료 한도(키 2개, 6,987콜)로 식당·호텔 1,816곳 실사 업로드, 오늘 누적 실사 1,858업체+위",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "photo-normalization-research-2026-07-18 (2026-07-17)",
+    "report": "data-photo-completion-plan-2026-07-19 (2026-07-18)",
     "next": [
-      "호텔 어필리에이트(Agoda+Booking) 연동 준비 — 파트너 계정 발급(사용자)",
-      "다국어 Stage EN-1 착수 — /en/ 업체 상세+카테고리 허브 번역",
-      "웰니스 경계 사례 4건(nightlife 태그·일반 웰니스명) 분류 결정 — 사장님 확인"
+      "매칭 스킵 3,191곳 좌표 기반 재매칭 라운드 — nearby 폴백으로 일부 회수(8월 콜 리셋 후)",
+      "호텔 어필리에이트(Agoda+Booking) 파트너 신청 — 남는 롱테일 호텔 커버",
+      "다국어 Stage EN-1 착수 — /en/ 업체 상세+카테고리 허브 번역"
     ],
     "reportUrl": "https://app.notion.com/p/399748204dbd812a973dd581f778c476"
   },
