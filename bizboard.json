@@ -33,7 +33,7 @@
     "stage": "본격 개발 진행",
     "done": "사진 정상화 대량 배치 완주 — TripAdvisor 무료 한도(키 2개, 6,987콜)로 식당·호텔 1,816곳 실사 업로드, 오늘 누적 실사 1,858업체+위",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "data-photo-completion-plan-2026-07-19 (2026-07-18)",
+    "report": "content-priority-report (2026-07-19)",
     "next": [
       "매칭 스킵 3,191곳 좌표 기반 재매칭 라운드 — nearby 폴백으로 일부 회수(8월 콜 리셋 후)",
       "호텔 어필리에이트(Agoda+Booking) 파트너 신청 — 남는 롱테일 호텔 커버",
