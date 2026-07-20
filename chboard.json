@@ -22,10 +22,10 @@
     "icon": "icons/brand/sleepyteddy.png",
     "subs": 7,
     "videos": 2,
-    "reserved": 0,
+    "reserved": 1,
     "target": 4,
-    "nextPub": "",
-    "scheduled": "",
+    "nextPub": "07-26 일 22:00",
+    "scheduled": "Neo-Classical Piano for (07-26 일)",
     "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a",
     "next": [
       "RAINY WAIT 곡 제작(컨셉 확정됨)",
