@@ -2,7 +2,7 @@
   {
     "name": "GEKOLIST",
     "icon": "icons/brand/gekolist.png",
-    "subs": 605,
+    "subs": 746,
     "videos": 3,
     "reserved": 4,
     "target": 4,
@@ -14,12 +14,13 @@
       "05·06 리믹스 불가·엔드스크린(Studio 수동)"
     ],
     "start": "2026-07-03",
-    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
+    "report": "주간 전략 07-20",
+    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
   },
   {
     "name": "SLEEPYTEDDYLIST",
     "icon": "icons/brand/sleepyteddy.png",
-    "subs": 6,
+    "subs": 7,
     "videos": 2,
     "reserved": 0,
     "target": 4,
@@ -31,7 +32,8 @@
       "BEACH FLOAT·WITH COFFEE 장르 테스트 청취"
     ],
     "start": "2026-07-12",
-    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
+    "report": "주간 전략 07-20",
+    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
   },
   {
     "name": "WHALELIST",
@@ -48,7 +50,8 @@
       "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약",
       "01·02 리믹스 불가·엔드스크린(Studio 수동)"
     ],
-    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
+    "report": "주간 전략 07-20",
+    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
   },
   {
     "name": "FUKULIST",
@@ -83,7 +86,7 @@
   {
     "name": "LAZE",
     "icon": "icons/brand/laze.png",
-    "subs": 6,
+    "subs": 7,
     "videos": 3,
     "stage": "음원 연동 채널",
     "scheduled": "Not Enough MV 07-19(일) 공개 — 싱글 발매일",
@@ -92,6 +95,7 @@
       "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
     ],
     "start": "2026-07-10",
-    "report": "주간 전략 보고서 — 첫 회 07-20(월) 생성 예정"
+    "report": "주간 전략 07-20",
+    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
   }
 ]
