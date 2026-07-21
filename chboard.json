@@ -1,101 +1,100 @@
 [
-  {
-    "name": "GEKOLIST",
-    "icon": "icons/brand/gekolist.png",
-    "subs": 924,
-    "videos": 3,
-    "reserved": 4,
-    "target": 4,
-    "nextPub": "07-24 금 21:00",
-    "scheduled": "Summer Lo-Fi Vibes to Co(07-24 금) · Chill R&B to Enjoy with (07-31 금) · Lazy Day Lo-Fi to Rest a(08-07 금) · Deep Sleep Lo-Fi for the(08-14 금)",
-    "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5",
-    "next": [
-      "DEEP SLEEP 세트 완성(30곡, 평균 8.39) — LAZE 분리 선별 → SUNO → 캡컷(GEKO08) → 예약",
-      "05·06 리믹스 불가·엔드스크린(Studio 수동)"
-    ],
-    "start": "2026-07-03",
-    "report": "주간 전략 07-20",
-    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
-  },
-  {
-    "name": "SLEEPYTEDDYLIST",
-    "icon": "icons/brand/sleepyteddy.png",
-    "subs": 7,
-    "videos": 2,
-    "reserved": 3,
-    "target": 4,
-    "nextPub": "07-26 일 22:00",
-    "scheduled": "Neo-Classical Piano for (07-26 일) · New Age Piano for a Warm(08-02 일) · Tropical Lo-Fi for Pools(08-09 일)",
-    "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a",
-    "next": [
-      "RAINY WAIT 곡 제작(컨셉 확정됨)",
-      "BEACH FLOAT·WITH COFFEE 장르 테스트 청취"
-    ],
-    "start": "2026-07-12",
-    "report": "주간 전략 07-20",
-    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
-  },
-  {
-    "name": "WHALELIST",
-    "icon": "icons/brand/whalelist.png",
-    "subs": 0,
-    "videos": 0,
-    "reserved": 2,
-    "target": 4,
-    "nextPub": "07-22 수 22:00",
-    "scheduled": "Whale's Sleep(07-22 수) · Soft Night(07-29 수)",
-    "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
-    "next": [
-      "02 처리 스톨 관찰 중(07-19~20 재확인, 안 풀리면 재업로드)",
-      "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약",
-      "01·02 리믹스 불가·엔드스크린(Studio 수동)"
-    ],
-    "report": "주간 전략 07-20",
-    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
-  },
-  {
-    "name": "FUKULIST",
-    "icon": "icons/brand/fukulist.png",
-    "subs": 0,
-    "videos": 0,
-    "reserved": 0,
-    "target": 4,
-    "nextPub": "",
-    "scheduled": "",
-    "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7",
-    "next": [
-      "첫 콘텐츠 컨셉 기획(jpop-lyricist) · 슬롯 목 21:00",
-      "전화 인증 + 숙성 활동 이틀+ 선행"
-    ]
-  },
-  {
-    "name": "PENGLIST",
-    "icon": "icons/brand/penglist.png",
-    "subs": 0,
-    "videos": 0,
-    "reserved": 0,
-    "target": 4,
-    "nextPub": "",
-    "scheduled": "",
-    "url": "https://app.notion.com/p/39f748204dbd8170ac7ec172fe05f45c",
-    "next": [
-      "첫 콘텐츠 컨셉 기획(edm-lyricist) · 슬롯 토 20:00",
-      "전화 인증 + 숙성 활동 이틀+ 선행"
-    ]
-  },
-  {
-    "name": "LAZE",
-    "icon": "icons/brand/laze.png",
-    "subs": 7,
-    "videos": 3,
-    "stage": "음원 연동 채널",
-    "scheduled": "Not Enough MV 07-19(일) 공개 — 싱글 발매일",
-    "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
-    "next": [
-      "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
-    ],
-    "start": "2026-07-10",
-    "report": "주간 전략 07-20",
-    "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
-  }
+ {
+  "name": "GEKOLIST",
+  "icon": "icons/brand/gekolist.png",
+  "subs": 924,
+  "videos": 3,
+  "reserved": 4,
+  "target": 4,
+  "nextPub": "07-24 금 21:00",
+  "scheduled": "Summer Lo-Fi Vibes to Co(07-24 금) · Chill R&B to Enjoy with (07-31 금) · Lazy Day Lo-Fi to Rest a(08-07 금) · Deep Sleep Lo-Fi for the(08-14 금)",
+  "url": "https://app.notion.com/p/389748204dbd81a19571e4df1f1970f5",
+  "next": [
+   "DEEP SLEEP 세트 완성(30곡, 평균 8.39) — LAZE 분리 선별 → SUNO → 캡컷(GEKO08) → 예약",
+   "05·06 리믹스 불가·엔드스크린(Studio 수동)"
+  ],
+  "start": "2026-07-03",
+  "report": "주간 전략 07-20",
+  "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
+ },
+ {
+  "name": "SLEEPYTEDDYLIST",
+  "icon": "icons/brand/sleepyteddy.png",
+  "subs": 7,
+  "videos": 2,
+  "reserved": 4,
+  "target": 4,
+  "nextPub": "07-26 일 22:00",
+  "scheduled": "Neo-Classical Piano for (07-26 일) · New Age Piano for a Warm(08-02 일) · Tropical Lo-Fi for Pools(08-09 일) · Neo-Classical Piano in the Rain(08-16 일)",
+  "url": "https://app.notion.com/p/38a748204dbd8121a4e2c0d17b91415a",
+  "next": [
+   "BEACH FLOAT·WITH COFFEE 장르 테스트 청취"
+  ],
+  "start": "2026-07-12",
+  "report": "주간 전략 07-20",
+  "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
+ },
+ {
+  "name": "WHALELIST",
+  "icon": "icons/brand/whalelist.png",
+  "subs": 0,
+  "videos": 0,
+  "reserved": 2,
+  "target": 4,
+  "nextPub": "07-22 수 22:00",
+  "scheduled": "Whale's Sleep(07-22 수) · Soft Night(07-29 수)",
+  "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
+  "next": [
+   "02 처리 스톨 관찰 중(07-19~20 재확인, 안 풀리면 재업로드)",
+   "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약",
+   "01·02 리믹스 불가·엔드스크린(Studio 수동)"
+  ],
+  "report": "주간 전략 07-20",
+  "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
+ },
+ {
+  "name": "FUKULIST",
+  "icon": "icons/brand/fukulist.png",
+  "subs": 0,
+  "videos": 0,
+  "reserved": 0,
+  "target": 4,
+  "nextPub": "",
+  "scheduled": "",
+  "url": "https://app.notion.com/p/38a748204dbd8137bf57ef4e49e7b9b7",
+  "next": [
+   "첫 콘텐츠 컨셉 기획(jpop-lyricist) · 슬롯 목 21:00",
+   "전화 인증 + 숙성 활동 이틀+ 선행"
+  ]
+ },
+ {
+  "name": "PENGLIST",
+  "icon": "icons/brand/penglist.png",
+  "subs": 0,
+  "videos": 0,
+  "reserved": 0,
+  "target": 4,
+  "nextPub": "",
+  "scheduled": "",
+  "url": "https://app.notion.com/p/39f748204dbd8170ac7ec172fe05f45c",
+  "next": [
+   "첫 콘텐츠 컨셉 기획(edm-lyricist) · 슬롯 토 20:00",
+   "전화 인증 + 숙성 활동 이틀+ 선행"
+  ]
+ },
+ {
+  "name": "LAZE",
+  "icon": "icons/brand/laze.png",
+  "subs": 7,
+  "videos": 3,
+  "stage": "음원 연동 채널",
+  "scheduled": "Not Enough MV 07-19(일) 공개 — 싱글 발매일",
+  "url": "https://app.notion.com/p/38a748204dbd81ae9409e81e5930fc92",
+  "next": [
+   "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
+  ],
+  "start": "2026-07-10",
+  "report": "주간 전략 07-20",
+  "reportUrl": "https://app.notion.com/p/2026-07-20-3a3748204dbd8168ad87c36e9718ddbe"
+ }
 ]
