@@ -39,10 +39,10 @@
     "icon": "icons/brand/whalelist.png",
     "subs": 0,
     "videos": 1,
-    "reserved": 2,
+    "reserved": 1,
     "target": 4,
-    "nextPub": "07-22 수 22:00",
-    "scheduled": "Whale's Sleep(07-22 수) · Soft Night(07-29 수)",
+    "nextPub": "07-29 수 22:00",
+    "scheduled": "Soft Night(07-29 수)",
     "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
     "next": [
       "03 Restful Night·04 Baby Sleep — SUNO 생성 → 캡컷 → 예약(4/4 목표·최우선)",
