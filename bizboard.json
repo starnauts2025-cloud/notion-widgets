@@ -33,7 +33,7 @@
     "stage": "런칭 직전 (Phase 26~30)",
     "done": "Phase 1~25 (복제·브랜딩·결제·KP·환불·미성년·한도)",
     "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
-    "report": "cardnews-ops-sop (2026-09-06)",
+    "report": "openai-ultrafast-gpt56-sol (2026-09-08)",
     "next": [
       "Vercel 과금 위기 해소·크론 안전 재개 판정",
       "빌드 재확인·블로그 5편·금기어·KP 결제 검증",
@@ -101,13 +101,13 @@
     "name": "스타너츠",
     "icon": "icons/brand/starnauts.png",
     "stage": "플랫폼 개발",
-    "done": "Gemini 키 이름 starnauts_key_gemini로 통일 + 구 키(starnauts_gem_key) 1회 자동 이관 — 도구별 \"다시 연결\" 원인 제거",
+    "done": "하루 신규 도구 4종(버퍼 플래너·LUFS 체커·다국어 조립기·가사 검사기) + 썸네일 14장 + 전 도구 실브라우저 테스트 23항목 PASS (2026-09-0",
     "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
     "report": "direction-2026-07-10 (2026-07-10)",
     "next": [
-      "출시 도구 1~2종 안정 도메인 배포 + SEO 콘텐츠",
-      "방법론 자료를 CLASS 강의 초안으로 전환",
-      "history 요청 로깅을 리드 지표로 재정의"
+      "키 불필요 도구에 사용 가이드·FAQ 블록 확대 (타임스탬프·루프 마스터) — SEO 유입 면 확보",
+      "버퍼 플래너 연계 블로그 1편 발행 (소재 노트 기존: schedule-buffer-material) 도구글C2 과목 삼각 퍼널",
+      "(완료 2026-09-09) 채널 안전 자가진단 출시 — 사장님 승인·15문항·테스트 11항목 PASS"
     ],
     "reportUrl": "https://app.notion.com/p/399748204dbd8153b745d8b448127247"
   },
