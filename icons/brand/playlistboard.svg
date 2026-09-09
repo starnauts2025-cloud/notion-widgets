@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="PlaylistBoard">
+  <title>PlaylistBoard</title>
+  <rect width="64" height="64" rx="12" fill="#E4002B"/>
+  <!-- 작은 크기에서도 형태가 남도록 막대를 굵게, 여백을 넉넉히 -->
+  <rect x="11" y="38" width="10" height="15" fill="#fff"/>
+  <rect x="25" y="27" width="10" height="26" fill="#fff"/>
+  <path d="M39 11 L57 32 L39 53 Z" fill="#fff"/>
+</svg>
