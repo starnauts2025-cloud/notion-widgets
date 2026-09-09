@@ -42,10 +42,10 @@
     "icon": "icons/brand/whalelist.png",
     "subs": 3,
     "videos": 8,
-    "reserved": 8,
+    "reserved": 7,
     "target": 4,
-    "nextPub": "09-09 수 22:00",
-    "scheduled": "Golden Hours(09-09 수) · Forest Ocarina(09-16 수) · Romantic Night(09-23 수) · Paper Moon(09-30 수) · Lovely Dream(10-07 수) · Cotton Candy(10-14 수) · Rain on the Piano(10-21 수) · Deep Sea(10-28 수)",
+    "nextPub": "09-16 수 22:00",
+    "scheduled": "Forest Ocarina(09-16 수) · Romantic Night(09-23 수) · Paper Moon(09-30 수) · Lovely Dream(10-07 수) · Cotton Candy(10-14 수) · Rain on the Piano(10-21 수) · Deep Sea(10-28 수)",
     "url": "https://app.notion.com/p/39f748204dbd8169b5fecbc6479dee90",
     "next": [
       "예약 7편 Studio 수동 대기 — AI 공개 토글 · 리믹스 비허용 · 핀 댓글",
