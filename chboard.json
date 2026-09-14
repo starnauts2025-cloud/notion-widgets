@@ -2,7 +2,7 @@
   {
     "name": "GEKOLIST",
     "icon": "icons/brand/gekolist.png",
-    "subs": 18800,
+    "subs": 18900,
     "videos": 11,
     "reserved": 1,
     "target": 4,
@@ -15,14 +15,14 @@
       "STREET VIBE 컨셉 확정 대기"
     ],
     "start": "2026-07-03",
-    "report": "주간 전략 09-07",
-    "reportUrl": "https://app.notion.com/p/2026-09-07-3d4748204dbd81058477eb03dfdbbaf3"
+    "report": "주간 전략 09-14",
+    "reportUrl": "https://app.notion.com/p/2026-09-14-3db748204dbd81bbb9f4f4df4f23b343"
   },
   {
     "name": "SLEEPYTEDDYLIST",
     "icon": "icons/brand/sleepyteddy.png",
     "subs": 825,
-    "videos": 9,
+    "videos": 10,
     "reserved": 19,
     "target": 4,
     "nextPub": "09-20 일 22:00",
@@ -34,14 +34,14 @@
       "Studio 수동 잔여 — 예약분 AI 공개 토글·리믹스 비허용·썸네일·핀 댓글"
     ],
     "start": "2026-07-12",
-    "report": "주간 전략 09-07",
-    "reportUrl": "https://app.notion.com/p/2026-09-07-3d4748204dbd81058477eb03dfdbbaf3"
+    "report": "주간 전략 09-14",
+    "reportUrl": "https://app.notion.com/p/2026-09-14-3db748204dbd81bbb9f4f4df4f23b343"
   },
   {
     "name": "WHALELIST",
     "icon": "icons/brand/whalelist.png",
     "subs": 3,
-    "videos": 7,
+    "videos": 8,
     "reserved": 7,
     "target": 4,
     "nextPub": "09-16 수 22:00",
@@ -52,8 +52,8 @@
       "10-14 예약 슬롯 비어 있음 — 다음 세트 배정 필요",
       "FLY TO THE MOON · VIOLET DREAM · DREAM TIME 악기 미정 — 썸네일만 확정"
     ],
-    "report": "주간 전략 09-07",
-    "reportUrl": "https://app.notion.com/p/2026-09-07-3d4748204dbd81058477eb03dfdbbaf3"
+    "report": "주간 전략 09-14",
+    "reportUrl": "https://app.notion.com/p/2026-09-14-3db748204dbd81bbb9f4f4df4f23b343"
   },
   {
     "name": "FUKULIST",
@@ -71,8 +71,8 @@
       "01 OWL LIFE 발행 완료(08-06 목 21:00, KZ3WCYlx11M)"
     ],
     "start": "2026-08-06",
-    "report": "주간 전략 09-07",
-    "reportUrl": "https://app.notion.com/p/2026-09-07-3d4748204dbd81058477eb03dfdbbaf3"
+    "report": "주간 전략 09-14",
+    "reportUrl": "https://app.notion.com/p/2026-09-14-3db748204dbd81bbb9f4f4df4f23b343"
   },
   {
     "name": "PENGLIST",
@@ -101,8 +101,8 @@
       "싱글 발매: Not Enough·Ice on my hand·Ice on my neck 07-19 · Last Call 07-20"
     ],
     "start": "2026-07-10",
-    "report": "주간 전략 09-07",
-    "reportUrl": "https://app.notion.com/p/2026-09-07-3d4748204dbd81058477eb03dfdbbaf3",
+    "report": "주간 전략 09-14",
+    "reportUrl": "https://app.notion.com/p/2026-09-14-3db748204dbd81bbb9f4f4df4f23b343",
     "reserved": 0,
     "nextPub": "-"
   }
