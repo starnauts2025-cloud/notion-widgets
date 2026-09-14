@@ -33,7 +33,7 @@
     "stage": "런칭 직전 (Phase 26~30)",
     "done": "Phase 1~25 (복제·브랜딩·결제·KP·환불·미성년·한도)",
     "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
-    "report": "claude-code-2-1-268-effort-cap-plugin-di (2026-09-11)",
+    "report": "samsung-mistral-series-d-semiconductor-a (2026-09-11)",
     "next": [
       "Vercel 과금 위기 해소·크론 안전 재개 판정",
       "빌드 재확인·블로그 5편·금기어·KP 결제 검증",
@@ -47,7 +47,7 @@
     "stage": "본격 개발 진행",
     "done": "TripAdvisor 좌표 기반 재매칭 배치 완주 — no-match 3,831곳 중 3,804곳에 4,525콜 투입해 사진 595곳 신규 업로드. 같은 날 사진",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "official-photo-usage-policy (2026-09-12)",
+    "report": "blog-publishing-sop (2026-09-14)",
     "next": [
       "사진 공백 잔여 no-match 3,063곳 대안 소스 확보 — 호텔 2,071곳(67.6%) 편중, TripAdvisor 구 API 8/31 ",
       "호텔 어필리에이트(Agoda+Booking) — 2026-04-29 신청 완료, 승인 대기 중",
