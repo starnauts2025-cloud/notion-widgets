@@ -19,7 +19,7 @@
     "stage": "운영 · 주소모아 계열",
     "done": "한글 슬러그 73건 정리 — MySQL 이관 때 되살아난 rename 이전 중복 제거, 301 맵 8건 추가 (2026-09-04)",
     "url": "https://app.notion.com/p/37c748204dbd81df918fd509507f46eb",
-    "report": "notion-ai (2026-09-12)",
+    "report": "seo-strategy-address-keywords (2026-09-15)",
     "next": [
       "색인 대상 재선정 — thin 페이지 noindex 목록 확정",
       "진입 랜딩 3종 완성 + 배포 전 결정 3건 확정",
@@ -33,7 +33,7 @@
     "stage": "런칭 직전 (Phase 26~30)",
     "done": "Phase 1~25 (복제·브랜딩·결제·KP·환불·미성년·한도)",
     "url": "https://app.notion.com/p/37c748204dbd817bb3b1c0723c351cfe",
-    "report": "samsung-mistral-series-d-semiconductor-a (2026-09-11)",
+    "report": "db-migration-2026-09 (2026-09-15)",
     "next": [
       "Vercel 과금 위기 해소·크론 안전 재개 판정",
       "빌드 재확인·블로그 5편·금기어·KP 결제 검증",
@@ -47,7 +47,7 @@
     "stage": "본격 개발 진행",
     "done": "TripAdvisor 좌표 기반 재매칭 배치 완주 — no-match 3,831곳 중 3,804곳에 4,525콜 투입해 사진 595곳 신규 업로드. 같은 날 사진",
     "url": "https://app.notion.com/p/37c748204dbd81b48f9be32befaf56c5",
-    "report": "blog-publishing-sop (2026-09-14)",
+    "report": "pattaya-koreatown-guide (2026-09-15)",
     "next": [
       "사진 공백 잔여 no-match 3,063곳 대안 소스 확보 — 호텔 2,071곳(67.6%) 편중, TripAdvisor 구 API 8/31 ",
       "호텔 어필리에이트(Agoda+Booking) — 2026-04-29 신청 완료, 승인 대기 중",
@@ -101,9 +101,9 @@
     "name": "스타너츠",
     "icon": "icons/brand/starnauts.png",
     "stage": "플랫폼 개발",
-    "done": "유튜브 실시간 인기 도구 출시 — 이지컷(easycut.co.kr) 실시간 인기 이식, 지역 6곳·서버 1시간 캐시(popular.php)·유료 잠금 없이 전 필",
+    "done": "도구 UI 전면 정돈 — 허브 재설계(분류 필터·검색·준비 중 목록), 22개 도구 공통 셸(사이드바·헤더·입력·버튼 한 벌, home/tool-ui.css), ",
     "url": "https://app.notion.com/p/37c748204dbd81a7ba36ed0b3cbbd063",
-    "report": "2026-09-13-ai-music-youtube-monetization (2026-09-11)",
+    "report": "PRODUCT (2026-09-15)",
     "next": [
       "키 불필요 도구에 사용 가이드·FAQ 블록 확대 (타임스탬프·루프 마스터) — SEO 유입 면 확보",
       "버퍼 플래너 연계 블로그 1편 발행 (소재 노트 기존: schedule-buffer-material) 도구글C2 과목 삼각 퍼널",
